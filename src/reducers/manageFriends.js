@@ -5,6 +5,6 @@ export function manageFriends(state, action){
     case 'REMOVE_FRIEND':
       return {friends: state.friends.filter(friend => friend.id !== action.id)}
     default:
-      return {friends: []}
+      return friends: []
   }
 }
